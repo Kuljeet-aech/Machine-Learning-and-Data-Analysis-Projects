@@ -52,5 +52,5 @@ for index,row in dfx.iterrows():
 dfx=dfx.groupby(['Release Year','Sentiment']).size().reset_index(name='Total Content')
 
 dfx=dfx[dfx['Release Year']>=2010]
-fig4 = px.bar(dfx, x="Release Year", y="Total Content", color="Sentiment", title="Sentiment of content on Netflix")
-fig4.show()
+fig3 = px.bar(dfx, x="Release Year", y="Total Content", color="Sentiment", title="Sentiment of content on Netflix")
+fig3.show()
