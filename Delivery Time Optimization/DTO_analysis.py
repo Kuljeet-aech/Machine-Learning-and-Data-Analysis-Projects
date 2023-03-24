@@ -42,3 +42,12 @@ print(data.head())
 #                    trendline="ols", 
 #                    title = "Relationship Between Time Taken and Age")
 #figure2.show()
+
+#figure3 = px.scatter(data_frame = data, 
+#                    x="Delivery_person_Ratings",
+#                    y="Time_taken(min)", 
+#                    size="Time_taken(min)", 
+#                    color = "Distance",
+#                    trendline="ols", 
+#                    title = "Relationship Between Time Taken and Ratings")
+#figure3.show()
