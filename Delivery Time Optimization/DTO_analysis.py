@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import plotly.express as px
-data = pd.read_csv("DataSets\Delivery time\deliverytime.txt")
+data = pd.read_csv("D:\Kuljeet\Projects\Data-Analysis-Projects\DataSets\Delivery Time Optimization\deliverytime.txt")
 
 R = 6371
 
