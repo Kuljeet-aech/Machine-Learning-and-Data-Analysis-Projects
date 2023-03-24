@@ -1,11 +1,8 @@
 import numpy as np
 import pandas as pd
 import plotly.express as px
-<<<<<<< HEAD
+
 data = pd.read_csv("D:\Kuljeet\Projects\Data-Analysis-Projects\DataSets\Delivery Time Optimization\deliverytime.txt")
-=======
-data = pd.read_csv("DataSets\Delivery time\deliverytime.txt")
->>>>>>> 851163cae2234ba05cfade6db97f1950df1cb03a
 
 R = 6371
 
@@ -30,7 +27,7 @@ for i in range(len(data)):
 print(data.head())
     
 #figure1 = px.scatter(data_frame = data,
-#                   x = "distance",
+#                   x = "Distance",
 #                   y = "Time_taken(min)",
 #                   size = "Time_taken(min)",
 #                   trendline="ols",
@@ -44,8 +41,4 @@ print(data.head())
 #                    color = "Distance",
 #                    trendline="ols", 
 #                    title = "Relationship Between Time Taken and Age")
-<<<<<<< HEAD
 #figure2.show()
-=======
-#figure2.show()
->>>>>>> 851163cae2234ba05cfade6db97f1950df1cb03a
