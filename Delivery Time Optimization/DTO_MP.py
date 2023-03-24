@@ -15,7 +15,7 @@ model.add(LSTM(128,return_sequences=True, input_shape=(xtrain.shape[1],1)))
 model.add(LSTM(64,return_sequences=False))
 model.add(Dense(25))
 model.add(Dense(1))
-model.summary
+model.summary()
 
 model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(xtrain, ytrain, batch_size=1, epochs=9)
